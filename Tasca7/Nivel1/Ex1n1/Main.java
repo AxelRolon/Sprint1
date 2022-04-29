@@ -1,0 +1,18 @@
+package Ex1n1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TrabajadorOnline trabo1 = new TrabajadorOnline("Axel","Duarte");
+		
+		trabo1.getSueldo(25, 0);
+		
+		TrabajadorPrescencial trabp1 = new TrabajadorPrescencial("Lorena","Duarte");
+		
+		trabp1.getSueldo(38, 28);
+		
+	}
+
+}
